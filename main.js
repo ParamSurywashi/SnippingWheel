@@ -14,23 +14,23 @@ btn.onclick = function () {
 
       (valueRes > 380) ? (valueRes = valueRes % 360) : (valueRes);
 
-     // console.log(" **********>  "+valueRes);
+      console.log(" **********>  "+valueRes);
       let result;
-    if (valueRes >= 0 && valueRes < 45) {
+    if (valueRes >= 0 && valueRes < 50) {
       result = 8;
-    } else if (valueRes >= 45 && valueRes < 90) {
+    } else if (valueRes >= 50 && valueRes < 95) {
       result = 7;
-    } else if (valueRes >= 90 && valueRes < 135) {
+    } else if (valueRes >= 95 && valueRes < 140) {
       result = 6;
-    } else if (valueRes >= 135 && valueRes < 180) {
+    } else if (valueRes >= 140 && valueRes < 185) {
       result = 5;
-    } else if (valueRes >= 180 && valueRes < 225) {
+    } else if (valueRes >= 185 && valueRes < 230) {
       result = 4;
-    } else if (valueRes >= 225 && valueRes < 270) {
+    } else if (valueRes >= 230 && valueRes < 275) {
       result = 3;
-    } else if (valueRes >= 270 && valueRes < 315) {
+    } else if (valueRes >= 275 && valueRes < 320) {
       result = 2;
-    } else if (valueRes >= 315 && valueRes < 380) {
+    } else if (valueRes >= 320 && valueRes < 380) {
         result = 1;
       }
       showPopupBox(result);
