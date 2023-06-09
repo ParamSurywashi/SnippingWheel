@@ -107,3 +107,30 @@ body{
     border-radius:50%;
     cursor: pointer;
   }
+
+
+
+
+.popup {
+    position: absolute;
+    bottom: 0;
+  background-color: #adf97e;
+  font-style: bold;
+  font-size: 22px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.close {
+    background-color: darkslategray;
+    color: #fff;
+    margin-left: 1em;
+    border: none;
+    padding: 4px 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
